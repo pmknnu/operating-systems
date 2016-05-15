@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     else{
     printf("Reading from %s\n", argv[1]);
   }
-
+  printf("%p\n",main );
   FILE *fp;
 
   fp=fopen(argv[1],"r");
